@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">carrera</string>
+    <string name="presentcarbutton">see the cars</string>
+    <string name="racebutton">RACE!</string>
+
+    <string name="carshomebutton">Home</string>
+    <string name="carsnextbutton">Next car</string>
+
+    <string name="car1specs">
+        <br>brand: MercedesBenz</br>
+        <br>size:medium</br>
+        <br>color: white</br>
+        <br>horsepower:30</br>
+        <br>comfort:medium</br>
+        <br>consumption: 69/100</br>
+    </string>
+
+    <string name="car2specs">
+        <br>brand: audi</br>
+        <br>size:medium</br>
+        <br>color: black</br>
+        <br>horsepower:50</br>
+        <br>comfort:medium</br>
+        <br>consumption: 75/100</br>
+    </string>
+
+    <string name="car3specs">
+        <br>brand: Jeep</br>
+        <br></br>
+        <br>size:Large</br>
+        <br>color: platinum</br>
+        <br>horsepower:46</br>
+        <br>comfort:high</br>
+        <br>consumption: 20/100</br>
+    </string>
+
+    <string name="car4specs">
+        <br>brand: Land Rover</br>
+        <br>size:Large</br>
+        <br>color: Dark grey</br>
+        <br>horsepower:42</br>
+        <br>comfort:high</br>
+        <br>consumption: 80/100</br>
+    </string>
+
+    <string name="car5specs">
+        <br>brand: Ford</br>
+        <br>size:medium</br>
+        <br>color: kiwi green</br>
+        <br>horsepower:50</br>
+        <br>comfort:medium</br>
+        <br>consumption: 60/100</br>
+    </string>
+    <string name="Nickname">
+        Nickname
+    </string>
+    <string name="namebutton">
+        Submit
+    </string>
+    <string name="Mercedes">
+        Mercedes AMG
+    </string>
+    <string name="ford">
+        Ford Mustang GT
+    </string>
+    <string name="audi">
+        audi R
+    </string>
+    <string name="jeep">
+        Jeep XD
+    </string>
+    <string name="LR">
+        Land Rover XE
+    </string>
+    <string name="choosetext">
+        Choose Your Car
+    </string>
+</resources>
