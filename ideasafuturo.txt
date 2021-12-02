@@ -1,0 +1,7 @@
+se ha guardado el nombre en la clase playername
+la clase race la proyecta en un textview, 
+haré un bucle en la clase race en la que saldrán las diferentes funciones
+cada función tendrá una foto relacionada con lo que pasa en la función, un botón de continuar, y un textview en el que explica lo que ha pasado
+si le das al botón de continuar, saldrá otra clase relacionada con otra función diferente, cuando le hayas dado un determinado número de veces
+aparecerá una última clase en la que saldrá si has quedado el primero o en cualquiera de las otras posiciones (1-5), en esa misma clase saldrá un
+botón de volver al menú de inicio.
