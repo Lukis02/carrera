@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Carrera">
+
         <activity
             android:name=".choosecar"
             android:exported="true" />
@@ -16,7 +17,7 @@
             android:name=".playername"
             android:exported="true" />
         <activity
-            android:name=".race"
+            android:name=".Race"
             android:exported="true" />
         <activity
             android:name=".seecars5"

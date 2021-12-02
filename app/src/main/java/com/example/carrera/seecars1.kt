@@ -1,9 +1,9 @@
 package com.example.carrera
-
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.example.carrera.Car
 
 class seecars1 : AppCompatActivity() {
 
@@ -18,6 +18,7 @@ class seecars1 : AppCompatActivity() {
         cars1homebutton.setOnClickListener{
 
             val Main = Intent (this, MainActivity::class.java)
+
 
             startActivity(Main)
         }
