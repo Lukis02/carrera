@@ -7,29 +7,69 @@
     android:background="@drawable/startrace"
 
     tools:context=".Race">
-    //nick.text
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/runbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/racebutton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.736" />
+        app:layout_constraintVertical_bias="0.805" />
 
     <TextView
         android:id="@+id/nickrace"
+        android:layout_width="85dp"
+        android:layout_height="74dp"
+        android:fontFamily="@font/aclonica"
+        android:textColor="#673AB7"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.065" />
+
+    <TextView
+        android:id="@+id/carbrand"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
+        android:fontFamily="@font/aclonica"
+        android:textColor="#DD1A1A"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.21" />
+        app:layout_constraintVertical_bias="0.276" />
+
+    <TextView
+        android:id="@+id/textrace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.211" />
+
+    <ImageView
+        android:id="@+id/imagefun"
+        android:layout_width="346dp"
+        android:layout_height="277dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.753"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
